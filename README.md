@@ -1,5 +1,4 @@
 # Student Exam Score Prediction System  
-**Introduction to Data Science — Fall 2025**
 
 This project predicts a student’s **final exam score** using socio-academic factors and a **Multiple Linear Regression** model. A simple **Streamlit web application** is also included to allow real-time score prediction.
 
