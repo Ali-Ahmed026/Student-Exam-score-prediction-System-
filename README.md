@@ -1,17 +1,15 @@
-# 🎓 Student Exam Score Prediction System  
+# Student Exam Score Prediction System  
 **Introduction to Data Science — Fall 2025**
 
 This project predicts a student’s **final exam score** using socio-academic factors and a **Multiple Linear Regression** model. A simple **Streamlit web application** is also included to allow real-time score prediction.
 
 ---
-# 🎥 Project Demo Video  
-▶️ **Watch Here:**  
-*(https://youtube.com/playlist?list=PLq342nOpX_pt-DzzfH2ejzrYPWhaEco5l&si=kYlkg3-Jg2blS7Al)*
+
 # Web App Link:
 *(https://edu-analytics.streamlit.app/
 )*
 ---
-## 📌 Project Overview
+## Project Overview
 
 - **Domain:** Education Analytics  
 - **Objective:** Predict student exam performance using machine learning  
@@ -22,30 +20,23 @@ This project predicts a student’s **final exam score** using socio-academic fa
 
 ---
 
-## 👨‍🎓 Team Members
 
-- **Ali Ahmed Malik (01-134222-022)**  
-- **Waleed Sultan (01-134221-057)**  
-
-**Course:** Introduction to Data Science  
-**Semester:** Fall 2025  
-**University:** Bahria University, Islamabad  
 
 ---
 
-## 🎯 Project Features
+## Project Features
 
-- ✅ Data loading & preprocessing  
-- ✅ Exploratory Data Analysis (EDA)  
-- ✅ Feature encoding  
-- ✅ Machine learning model training  
-- ✅ Model evaluation using MAE & R²  
-- ✅ Model saving using Joblib  
-- ✅ Real-time predictions using Streamlit  
+- Data loading & preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature encoding  
+- Machine learning model training  
+- Model evaluation using MAE & R²  
+- Model saving using Joblib  
+- Real-time predictions using Streamlit  
 
 ---
 
-## 📊 Input Features Used
+## Input Features Used
 
 | Feature Name | Description |
 |--------------|-------------|
@@ -55,11 +46,11 @@ This project predicts a student’s **final exam score** using socio-academic fa
 | `Motivation_Level` | Low / Medium / High |
 | `Parental_Involvement` | Low / Medium / High |
 
-🎯 **Target Variable:** `Exam_Score`
+**Target Variable:** `Exam_Score`
 
 ---
 
-## 🧠 Machine Learning Model
+## Machine Learning Model
 
 - **Algorithm:** Multiple Linear Regression  
 - **Why this model?**
@@ -69,18 +60,18 @@ This project predicts a student’s **final exam score** using socio-academic fa
 
 ---
 
-## ✅ Model Performance
+## Model Performance
 
 | Metric | Value |
 |--------|--------|
 | **MAE** | **1.19** |
 | **R² Score** | **0.67** |
 
-📌 The model predicts exam scores with an average error of **only ~1.2 marks**, and explains **67% of the variance** in student performance.
+The model predicts exam scores with an average error of **only ~1.2 marks**, and explains **67% of the variance** in student performance.
 
 ---
 
-## 🌐 Streamlit Web App Features
+## Streamlit Web App Features
 
 - Interactive sliders for input values  
 - Dropdowns for categorical features  
